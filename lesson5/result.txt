@@ -1,0 +1,60 @@
+Добрый день!
+
+1. Исправленный XML:
+<req>
+        <surname>Иванов</surname>
+        <name>Иван</name>
+        <patronymic>Иванович</patronymic>
+        <birthdate>01.01.1990</birthdate>
+        <birthplace>Москва</birthplace>
+        <phone>8 926 766 48 48</phone>
+</req>
+
+Добавил закрывающийся тег в конце.
+
+2. Исправленный JSON:
+{
+        "surname": "Иванов",
+        "name": "Иван",
+        "patronymic": "Иванович",
+        "birthdate": "01.01.1990",
+        "birthplace": "Москва",
+        "phone": "8 926 766 48 48"
+}
+
+Убрал двойные кавычки и добавил запятые
+
+3. Список фильмов:
+
+[
+  {
+    "title": "Брат",
+    "rating": 8.4,
+    "release_date": "1997-05-01",
+    "director": "Алексей Балабанов"
+  },
+  {
+    "title": "Стиляги",
+    "rating": 7.6,
+    "release_date": "2008-06-19",
+    "director": "Валерий Тодоровский"
+  },
+  {
+    "title": "Летят журавли",
+    "rating": 8.3,
+    "release_date": "1957-10-01",
+    "director": "Михаил Калатозов"
+  },
+  {
+    "title": "Белое солнце пустыни",
+    "rating": 8.3,
+    "release_date": "1970-06-01",
+    "director": "Владимир Мотыль"
+  },
+  {
+    "title": "Иди и смотри",
+    "rating": 8.3,
+    "release_date": "1985-07-01",
+    "director": "Элем Климов"
+  }
+]
